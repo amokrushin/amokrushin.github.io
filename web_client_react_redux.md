@@ -43,6 +43,11 @@
   - [github/async-redux-saga](https://github.com/andresmijares/async-redux-saga)
 - [This collection of common Redux-saga patterns will make your life easier](https://medium.freecodecamp.org/redux-saga-common-patterns-48437892e11c)
 
+#### webpack
+
+- [Webpack React/Redux Hot Module Reloading (HMR) example](https://gist.github.com/markerikson/dc6cee36b5b6f8d718f2e24a249e0491)
+
+
 ## UI
 
 [Semantic UI React](https://react.semantic-ui.com) — The official Semantic-UI-React integration.
