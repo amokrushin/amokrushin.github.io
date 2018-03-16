@@ -10,8 +10,22 @@
 
 [A categorized list of Redux-related addons, libraries, and utilities](https://github.com/markerikson/redux-ecosystem-links)
 
+[A Guide For Building A React Redux CRUD App](https://medium.com/@rajaraodv/a-guide-for-building-a-react-redux-crud-app-7fe0b8943d0f)
+
+[Ходим за покупками с full-stack redux](https://habrahabr.ru/post/338142/)
+
+### react-router
+
+[github/react-router](https://github.com/ReactTraining/react-router)
+
+[docs](react-router)
+
 
 ## State
+
+### [redux](https://redux.js.org)
+
+[github/react-redux](https://github.com/reactjs/react-redux) — Official React bindings for Redux
 
 [Redux Ecosystem Links](https://github.com/markerikson/redux-ecosystem-links) — A categorized list of Redux-related addons, libraries, and utilities
 
@@ -36,12 +50,17 @@
 - [Normalizing State Shape](https://redux.js.org/recipes/structuring-reducers/normalizing-state-shape)
 - [Updating Normalized Data](https://redux.js.org/recipes/structuring-reducers/updating-normalized-data)
 - [github/normalizr](https://github.com/paularmstrong/normalizr)
+- [Using Normalizr to organize data in stores — practical guid](https://hackernoon.com/using-normalizr-to-organize-data-in-stores-practical-guide-82fa061b60fb)
+- [Using Normalizr to organize data in store. Part 2](https://hackernoon.com/using-normalizr-to-organize-data-in-store-part-2-d9646133b7df)
 
-#### redux-saga
+#### [redux-saga](https://redux-saga.js.org)
 
 - [Async operations using redux-saga](https://medium.freecodecamp.org/async-operations-using-redux-saga-2ba02ae077b3)
   - [github/async-redux-saga](https://github.com/andresmijares/async-redux-saga)
 - [This collection of common Redux-saga patterns will make your life easier](https://medium.freecodecamp.org/redux-saga-common-patterns-48437892e11c)
+- [Moving from redux-thunk to redux-saga](https://hackernoon.com/moving-form-redux-thunk-to-redux-saga-5c19d0011ca0)
+  - [github/redux-thunk-saga](https://github.com/jinxac/redux-thunk-saga)
+- [Разбираемся в redux-saga: От генераторов действий к сагам](https://habrahabr.ru/post/351168/)
 
 #### webpack
 
