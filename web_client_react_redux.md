@@ -44,4 +44,6 @@
 
 ### computable properties
 
+[Computing Derived Data](https://redux.js.org/recipes/computing-derived-data)
+
 [reselect](https://github.com/reactjs/reselect)
