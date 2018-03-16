@@ -23,10 +23,17 @@
 * [What about loading spinner and error handling?](https://www.robinwieruch.de/react-fetching-data/#react-fetch-loading-error)
 * [How to abstract the fetching away? (higher order component)](https://www.robinwieruch.de/react-fetching-data/#react-fetch-higher-order-component)
 
+[Practical Redux](http://blog.isquaredsoftware.com/series/practical-redux/)
+- [github/project-minimek](https://github.com/markerikson/project-minimek)
+
 ### Libs
 
 [normalizr](https://github.com/paularmstrong/normalizr)
 
+
+## UI
+
+[Semantic UI React](https://react.semantic-ui.com) — The official Semantic-UI-React integration.
 
 ## Migrate from Vue.js
 
