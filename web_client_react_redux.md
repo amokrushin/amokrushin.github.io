@@ -28,9 +28,14 @@
 [Practical Redux](http://blog.isquaredsoftware.com/series/practical-redux/)
 - [github/project-minimek](https://github.com/markerikson/project-minimek)
 
-### Libs
+[Computing Derived Data](https://redux.js.org/recipes/computing-derived-data)
+- [github/reselect](https://github.com/reactjs/reselect)
 
-[normalizr](https://github.com/paularmstrong/normalizr)
+#### Normalizing
+
+- [Normalizing State Shape](https://redux.js.org/recipes/structuring-reducers/normalizing-state-shape)
+- [Updating Normalized Data](https://redux.js.org/recipes/structuring-reducers/updating-normalized-data)
+- [github/normalizr](https://github.com/paularmstrong/normalizr)
 
 
 ## UI
@@ -39,11 +44,3 @@
 - [github/Semantic-UI-React](https://github.com/Semantic-Org/Semantic-UI-React)
 - [github/Semantic-UI-LESS](https://github.com/Semantic-Org/Semantic-UI-LESS)
 - [Webpack 2 & Semantic UI Theming](https://medium.com/webmonkeys/webpack-2-semantic-ui-theming-a216ddf60daf)
-
-## Migrate from Vue.js
-
-### computable properties
-
-[Computing Derived Data](https://redux.js.org/recipes/computing-derived-data)
-
-[reselect](https://github.com/reactjs/reselect)
