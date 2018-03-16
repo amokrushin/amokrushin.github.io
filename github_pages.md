@@ -1,5 +1,7 @@
 # GitHub Pages
 
+[Welcome to GitHub Pages](welcome_to_github_pages.md)
+
 ## Themes
 
 - [Customizing CSS and HTML in your Jekyll theme](https://help.github.com/articles/customizing-css-and-html-in-your-jekyll-theme/)
