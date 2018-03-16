@@ -37,6 +37,11 @@
 - [Updating Normalized Data](https://redux.js.org/recipes/structuring-reducers/updating-normalized-data)
 - [github/normalizr](https://github.com/paularmstrong/normalizr)
 
+#### redux-saga
+
+- [Async operations using redux-saga](https://medium.freecodecamp.org/async-operations-using-redux-saga-2ba02ae077b3)
+  - [github/async-redux-saga](https://github.com/andresmijares/async-redux-saga)
+- [This collection of common Redux-saga patterns will make your life easier](https://medium.freecodecamp.org/redux-saga-common-patterns-48437892e11c)
 
 ## UI
 
