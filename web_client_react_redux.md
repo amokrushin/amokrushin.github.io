@@ -28,7 +28,7 @@
 [normalizr](https://github.com/paularmstrong/normalizr)
 
 
-## Hello from Vue.js
+## Migrate from Vue.js
 
 ### computable properties
 
