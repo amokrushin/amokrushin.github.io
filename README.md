@@ -1,6 +1,6 @@
-## [Welcome to GitHub Pages](welcome_to_github_pages.md)
-
 ## Table of Contents
+
+- [Welcome to GitHub Pages](welcome_to_github_pages.md)
 
 #### Web client
 
