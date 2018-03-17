@@ -1,24 +1,26 @@
 ## Links
 
-[The Tao of Redux, Part 1 - Implementation and Intent](http://blog.isquaredsoftware.com/2017/05/idiomatic-redux-tao-of-redux-part-1/)
+- [The Tao of Redux, Part 1 - Implementation and Intent](http://blog.isquaredsoftware.com/2017/05/idiomatic-redux-tao-of-redux-part-1/)
 
-[The Tao of Redux, Part 2 - Practice and Philosophy](http://blog.isquaredsoftware.com/2017/05/idiomatic-redux-tao-of-redux-part-2/)
+- [The Tao of Redux, Part 2 - Practice and Philosophy](http://blog.isquaredsoftware.com/2017/05/idiomatic-redux-tao-of-redux-part-2/)
 
-[React.js pure render performance anti-pattern](https://medium.com/@esamatti/react-js-pure-render-performance-anti-pattern-fb88c101332f)
+- [React.js pure render performance anti-pattern](https://medium.com/@esamatti/react-js-pure-render-performance-anti-pattern-fb88c101332f)
 
-[Curated tutorial and resource links I've collected on React, Redux, ES6, and more](https://github.com/markerikson/react-redux-links)
+- [Curated tutorial and resource links I've collected on React, Redux, ES6, and more](https://github.com/markerikson/react-redux-links)
 
-[A categorized list of Redux-related addons, libraries, and utilities](https://github.com/markerikson/redux-ecosystem-links)
+- [A categorized list of Redux-related addons, libraries, and utilities](https://github.com/markerikson/redux-ecosystem-links)
 
-[A Guide For Building A React Redux CRUD App](https://medium.com/@rajaraodv/a-guide-for-building-a-react-redux-crud-app-7fe0b8943d0f)
+- [A Guide For Building A React Redux CRUD App](https://medium.com/@rajaraodv/a-guide-for-building-a-react-redux-crud-app-7fe0b8943d0f)
 
-[Ходим за покупками с full-stack redux](https://habrahabr.ru/post/338142/)
+- [Ходим за покупками с full-stack redux](https://habrahabr.ru/post/338142/)
+
 
 ### react-router
 
-[github/react-router](https://github.com/ReactTraining/react-router)
+- [website](https://reacttraining.com/react-router/)
 
-[docs](react-router)
+- [github/react-router](https://github.com/ReactTraining/react-router)
+
 
 
 ## State
@@ -56,15 +58,18 @@
 - [Using Normalizr to organize data in stores — practical guid](https://hackernoon.com/using-normalizr-to-organize-data-in-stores-practical-guide-82fa061b60fb)
 - [Using Normalizr to organize data in store. Part 2](https://hackernoon.com/using-normalizr-to-organize-data-in-store-part-2-d9646133b7df)
 
+
 #### redux-thunk
 
-- [github/redux-thunk](https://github.com/gaearon/redux-thunk)
+[![][github badge]](https://github.com/gaearon/redux-thunk)
+
 - [In-depth introduction to thunks in Redux](http://stackoverflow.com/questions/35411423/how-to-dispatch-a-redux-action-with-a-timeout/35415559#35415559)
 
-#### [redux-saga](https://redux-saga.js.org)
 
-- [github/redux-saga](https://github.com/redux-saga/redux-saga)
-  - [redux-saga.js.org](https://redux-saga.js.org)
+#### redux-saga
+
+[![][github badge]](https://github.com/redux-saga/redux-saga)
+[![][website badge]](https://redux-saga.js.org)
 
 - [Async operations using redux-saga](https://medium.freecodecamp.org/async-operations-using-redux-saga-2ba02ae077b3)
   - [github/async-redux-saga](https://github.com/andresmijares/async-redux-saga)
@@ -76,9 +81,11 @@
   
 - [Разбираемся в redux-saga: От генераторов действий к сагам](https://habrahabr.ru/post/351168/)
 
+
 #### webpack
 
 - [Webpack React/Redux Hot Module Reloading (HMR) example](https://gist.github.com/markerikson/dc6cee36b5b6f8d718f2e24a249e0491)
+
 
 
 ## UI
@@ -87,3 +94,7 @@
 - [github/Semantic-UI-React](https://github.com/Semantic-Org/Semantic-UI-React)
 - [github/Semantic-UI-LESS](https://github.com/Semantic-Org/Semantic-UI-LESS)
 - [Webpack 2 & Semantic UI Theming](https://medium.com/webmonkeys/webpack-2-semantic-ui-theming-a216ddf60daf)
+
+
+[github badge]: https://img.shields.io/badge/-github-blue.svg?style=flat-square&longCache=true
+[website badge]: https://img.shields.io/badge/-website-607D8B.svg?style=flat-square&longCache=true
