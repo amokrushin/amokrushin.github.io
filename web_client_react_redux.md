@@ -15,10 +15,15 @@
 - [Ходим за покупками с full-stack redux](https://habrahabr.ru/post/338142/)
 
 
-### react-router
+#### react-router
 
 [![][github badge]](https://github.com/ReactTraining/react-router)
 [![][website badge]](https://reacttraining.com/react-router/)
+
+
+#### classnames
+
+[![][github badge]](https://github.com/JedWatson/classnames)
 
 
 
