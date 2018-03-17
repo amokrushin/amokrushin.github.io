@@ -45,6 +45,9 @@
 [Computing Derived Data](https://redux.js.org/recipes/computing-derived-data)
 - [github/reselect](https://github.com/reactjs/reselect)
 
+[Редакс в реальной жизни](https://iamakulov.com/talks/redux-in-real-life/)
+
+
 #### Normalizing
 
 - [Normalizing State Shape](https://redux.js.org/recipes/structuring-reducers/normalizing-state-shape)
