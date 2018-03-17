@@ -24,37 +24,42 @@
 
 ## State
 
-### [redux](https://redux.js.org)
+#### redux
 
-[github/react-redux](https://github.com/reactjs/react-redux) — Official React bindings for Redux
+[![][github badge]](https://github.com/reactjs/react-redux)
+[![][website badge]](https://redux.js.org)
 
-[Redux Ecosystem Links](https://github.com/markerikson/redux-ecosystem-links) — A categorized list of Redux-related addons, libraries, and utilities
+- [Redux FAQ](https://redux.js.org/faq)
 
-[Redux FAQ](https://redux.js.org/faq)
+- [Computing Derived Data](https://redux.js.org/recipes/computing-derived-data)
+  - [github/reselect](https://github.com/reactjs/reselect)
+  
+- [Redux Ecosystem Links](https://github.com/markerikson/redux-ecosystem-links) — A categorized list of Redux-related addons, libraries, and utilities
 
-[Redux Anti-Patterns - Part 1. State Management.](http://blog.mgechev.com/2017/12/07/redux-anti-patterns-race-conditions-state-management-duplication/)
+- [Redux Anti-Patterns - Part 1. State Management.](http://blog.mgechev.com/2017/12/07/redux-anti-patterns-race-conditions-state-management-duplication/)
 
-[How to fetch data in React](https://www.robinwieruch.de/react-fetching-data/)
-* [Where to fetch in React's component tree?](https://www.robinwieruch.de/react-fetching-data/#react-where-fetch)
-* [How to fetch data in React?](https://www.robinwieruch.de/react-fetching-data/#react-how-fetch)
-* [What about loading spinner and error handling?](https://www.robinwieruch.de/react-fetching-data/#react-fetch-loading-error)
-* [How to abstract the fetching away? (higher order component)](https://www.robinwieruch.de/react-fetching-data/#react-fetch-higher-order-component)
+- [How to fetch data in React](https://www.robinwieruch.de/react-fetching-data/)
+  - [Where to fetch in React's component tree?](https://www.robinwieruch.de/react-fetching-data/#react-where-fetch)
+  - [How to fetch data in React?](https://www.robinwieruch.de/react-fetching-data/#react-how-fetch)
+  - [What about loading spinner and error handling?](https://www.robinwieruch.de/react-fetching-data/#react-fetch-loading-error)
+  - [How to abstract the fetching away? (higher order component)](https://www.robinwieruch.de/react-fetching-data/#react-fetch-higher-order-component)
 
-[Practical Redux](http://blog.isquaredsoftware.com/series/practical-redux/)
-- [github/project-minimek](https://github.com/markerikson/project-minimek)
+- [Practical Redux](http://blog.isquaredsoftware.com/series/practical-redux/)
+  - [github/project-minimek](https://github.com/markerikson/project-minimek)
 
-[Computing Derived Data](https://redux.js.org/recipes/computing-derived-data)
-- [github/reselect](https://github.com/reactjs/reselect)
-
-[Редакс в реальной жизни](https://iamakulov.com/talks/redux-in-real-life/)
+- [Редакс в реальной жизни](https://iamakulov.com/talks/redux-in-real-life/)
 
 
-#### Normalizing
+#### normalizr
+
+[![][github badge]](https://github.com/paularmstrong/normalizr)
 
 - [Normalizing State Shape](https://redux.js.org/recipes/structuring-reducers/normalizing-state-shape)
+
 - [Updating Normalized Data](https://redux.js.org/recipes/structuring-reducers/updating-normalized-data)
-- [github/normalizr](https://github.com/paularmstrong/normalizr)
+
 - [Using Normalizr to organize data in stores — practical guid](https://hackernoon.com/using-normalizr-to-organize-data-in-stores-practical-guide-82fa061b60fb)
+
 - [Using Normalizr to organize data in store. Part 2](https://hackernoon.com/using-normalizr-to-organize-data-in-store-part-2-d9646133b7df)
 
 
@@ -93,6 +98,8 @@
 - [github/Semantic-UI-React](https://github.com/Semantic-Org/Semantic-UI-React)
 - [github/Semantic-UI-LESS](https://github.com/Semantic-Org/Semantic-UI-LESS)
 - [Webpack 2 & Semantic UI Theming](https://medium.com/webmonkeys/webpack-2-semantic-ui-theming-a216ddf60daf)
+
+
 
 
 [github badge]: https://img.shields.io/badge/-github-blue.svg?style=flat-square&longCache=true
