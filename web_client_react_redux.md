@@ -17,9 +17,8 @@
 
 ### react-router
 
-- [website](https://reacttraining.com/react-router/)
-
-- [github/react-router](https://github.com/ReactTraining/react-router)
+[![][github badge]](https://github.com/ReactTraining/react-router)
+[![][website badge]](https://reacttraining.com/react-router/)
 
 
 
