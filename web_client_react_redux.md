@@ -99,10 +99,24 @@
 
 ## UI
 
-[Semantic UI React](https://react.semantic-ui.com) — The official Semantic-UI-React integration.
-- [github/Semantic-UI-React](https://github.com/Semantic-Org/Semantic-UI-React)
+
+#### Semantic UI React
+
+[![][github badge]](https://github.com/Semantic-Org/Semantic-UI-React)
+[![][website badge]](https://react.semantic-ui.com)
+
+The official Semantic-UI-React integration.
+
 - [github/Semantic-UI-LESS](https://github.com/Semantic-Org/Semantic-UI-LESS)
 - [Webpack 2 & Semantic UI Theming](https://medium.com/webmonkeys/webpack-2-semantic-ui-theming-a216ddf60daf)
+
+
+#### reactstrap
+
+[![][github badge]](https://github.com/reactstrap/reactstrap)
+[![][website badge]](https://reactstrap.github.io/)
+
+Stateless React Components for Bootstrap 4.
 
 
 
