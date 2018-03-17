@@ -53,13 +53,24 @@
 - [Using Normalizr to organize data in stores — practical guid](https://hackernoon.com/using-normalizr-to-organize-data-in-stores-practical-guide-82fa061b60fb)
 - [Using Normalizr to organize data in store. Part 2](https://hackernoon.com/using-normalizr-to-organize-data-in-store-part-2-d9646133b7df)
 
+#### redux-thunk
+
+- [github/redux-thunk](https://github.com/gaearon/redux-thunk)
+- [In-depth introduction to thunks in Redux](http://stackoverflow.com/questions/35411423/how-to-dispatch-a-redux-action-with-a-timeout/35415559#35415559)
+
 #### [redux-saga](https://redux-saga.js.org)
+
+- [github/redux-saga](https://github.com/redux-saga/redux-saga)
+  - [redux-saga.js.org](https://redux-saga.js.org)
 
 - [Async operations using redux-saga](https://medium.freecodecamp.org/async-operations-using-redux-saga-2ba02ae077b3)
   - [github/async-redux-saga](https://github.com/andresmijares/async-redux-saga)
+
 - [This collection of common Redux-saga patterns will make your life easier](https://medium.freecodecamp.org/redux-saga-common-patterns-48437892e11c)
+
 - [Moving from redux-thunk to redux-saga](https://hackernoon.com/moving-form-redux-thunk-to-redux-saga-5c19d0011ca0)
   - [github/redux-thunk-saga](https://github.com/jinxac/redux-thunk-saga)
+  
 - [Разбираемся в redux-saga: От генераторов действий к сагам](https://habrahabr.ru/post/351168/)
 
 #### webpack
