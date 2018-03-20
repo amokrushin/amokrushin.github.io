@@ -119,6 +119,10 @@ The official Semantic-UI-React integration.
 Stateless React Components for Bootstrap 4.
 
 
+#### react-beautiful-dnd
+
+[![][github badge]](https://github.com/atlassian/react-beautiful-dnd)
+[![][website badge]](https://react-beautiful-dnd.netlify.com)
 
 
 [github badge]: https://img.shields.io/badge/-github-blue.svg?style=flat-square&longCache=true
