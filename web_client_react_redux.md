@@ -113,10 +113,10 @@ The official Semantic-UI-React integration.
 
 #### reactstrap
 
+> Stateless React Components for Bootstrap 4
+
 [![][github badge]](https://github.com/reactstrap/reactstrap)
 [![][website badge]](https://reactstrap.github.io/)
-
-Stateless React Components for Bootstrap 4.
 
 
 #### react-beautiful-dnd
@@ -128,6 +128,13 @@ Stateless React Components for Bootstrap 4.
 #### scroll
 
 [React scroll decorator](https://stanko.github.io/react-scroll-position-decorator/)
+
+
+#### react-motion
+
+>A spring that solves your animation problems
+
+[![][github badge]](https://github.com/chenglou/react-motion)
 
 
 
