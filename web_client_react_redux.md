@@ -129,6 +129,10 @@
 
 - [github/examples](https://github.com/react-dnd/react-dnd/tree/master/packages/documentation/examples)
 
+##### Plugins
+
+- [github/react-dnd-scrollzone](https://github.com/azuqua/react-dnd-scrollzone)
+
 
 #### ~~react-beautiful-dnd~~
 
