@@ -126,6 +126,8 @@
 [![][github badge]](https://github.com/react-dnd/react-dnd)
 [![][website badge]](http://react-dnd.github.io/react-dnd/)
 
+- [github/examples](https://github.com/react-dnd/react-dnd/tree/master/packages/documentation/examples)
+
 
 #### ~~react-beautiful-dnd~~
 
