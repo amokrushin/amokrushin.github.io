@@ -11,3 +11,4 @@
 #### Miscellaneous
 
 - [GitHub Pages](github_pages.md)
+- [Basic writing and formatting syntax](https://help.github.com/articles/basic-writing-and-formatting-syntax)
