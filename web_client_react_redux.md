@@ -119,11 +119,12 @@
 [![][website badge]](https://reactstrap.github.io/)
 
 
-#### react-beautiful-dnd
+#### ~~react-beautiful-dnd~~
 
 [![][github badge]](https://github.com/atlassian/react-beautiful-dnd)
 [![][website badge]](https://react-beautiful-dnd.netlify.com)
 
+Almost unusable due to [nested DragDropContext's not supported](https://github.com/atlassian/react-beautiful-dnd/issues/131) by design
 
 #### scroll
 
