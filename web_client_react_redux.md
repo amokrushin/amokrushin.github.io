@@ -124,7 +124,8 @@
 > Drag and Drop for React
 
 [![][github badge]](https://github.com/react-dnd/react-dnd)
-[![][website badge]](http://react-dnd.github.io/react-dnd/)
+[![][docs badge]](http://react-dnd.github.io/react-dnd/docs-overview.html)
+[![][examples badge]](http://react-dnd.github.io/react-dnd/examples-chessboard-tutorial-app.html)
 
 - [github/examples](https://github.com/react-dnd/react-dnd/tree/master/packages/documentation/examples)
 
@@ -155,3 +156,5 @@ Almost unusable due to [#131](https://github.com/atlassian/react-beautiful-dnd/i
 
 [github badge]: https://img.shields.io/badge/-github-blue.svg?style=flat-square&longCache=true
 [website badge]: https://img.shields.io/badge/-website-607D8B.svg?style=flat-square&longCache=true
+[docs badge]: https://img.shields.io/badge/-docs-009688.svg?style=flat-square&longCache=true
+[examples badge]: https://img.shields.io/badge/-examples-795548.svg?style=flat-square&longCache=true
