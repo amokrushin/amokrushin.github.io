@@ -119,6 +119,14 @@
 [![][website badge]](https://reactstrap.github.io/)
 
 
+#### react-dnd
+
+> Drag and Drop for React
+
+[![][github badge]](https://github.com/react-dnd/react-dnd)
+[![][website badge]](http://react-dnd.github.io/react-dnd/)
+
+
 #### ~~react-beautiful-dnd~~
 
 > ~~Beautiful~~, accessible drag and drop for lists with React.js
