@@ -121,10 +121,13 @@
 
 #### ~~react-beautiful-dnd~~
 
+> ~~Beautiful~~, accessible drag and drop for lists with React.js
+
 [![][github badge]](https://github.com/atlassian/react-beautiful-dnd)
 [![][website badge]](https://react-beautiful-dnd.netlify.com)
 
-Almost unusable due to [nested DragDropContext's not supported](https://github.com/atlassian/react-beautiful-dnd/issues/131) by design
+Almost unusable due to [#131](https://github.com/atlassian/react-beautiful-dnd/issues/131)
+
 
 #### scroll
 
