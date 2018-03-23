@@ -128,6 +128,7 @@
 [![][examples badge]](http://react-dnd.github.io/react-dnd/examples-chessboard-tutorial-app.html)
 
 - [github/examples](https://github.com/react-dnd/react-dnd/tree/master/packages/documentation/examples)
+- [habrahabr/React, Drag&Drop и performance](https://habrahabr.ru/company/macte/blog/344368/)
 
 ##### Plugins
 
