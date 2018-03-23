@@ -7,6 +7,11 @@
 - [Webpack](webpack.md)
 
 
+#### Git
+
+- [FAQ](git_faq.md)
+
+
 #### Miscellaneous
 
 - [GitHub Pages](github_pages.md)
