@@ -127,12 +127,18 @@
 [![][docs badge]](http://react-dnd.github.io/react-dnd/docs-overview.html)
 [![][examples badge]](http://react-dnd.github.io/react-dnd/examples-chessboard-tutorial-app.html)
 
-- [React, Drag&Drop и performance](https://habrahabr.ru/company/macte/blog/344368/)
-- [Trello like board based on React, Redux, React-dnd](https://github.com/web-pal/react-trello-board)
-
 ##### Plugins
 
 - [github/react-dnd-scrollzone](https://github.com/azuqua/react-dnd-scrollzone)
+
+##### Blog Posts
+
+- [React, Drag&Drop и performance](https://habrahabr.ru/company/macte/blog/344368/)
+
+##### Demo projects
+
+- [github.com/web-pal/react-trello-board](https://github.com/web-pal/react-trello-board)
+- [github.com/bsmithgall/biblio](https://github.com/bsmithgall/biblio)
 
 
 #### ~~react-beautiful-dnd~~
