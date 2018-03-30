@@ -5,7 +5,7 @@
 - [github.com/travis-ci/travis.rb](https://github.com/travis-ci/travis.rb)
 - [github.com/skandyla/docker-travis-cli](https://github.com/skandyla/docker-travis-cli)
 
-```
+```bash
 # add bash command alias to ~/.bashrc
 # alias travis-cli='docker run --rm -it -v $(pwd):/project skandyla/travis-cli'
 
