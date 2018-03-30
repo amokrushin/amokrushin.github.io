@@ -6,3 +6,7 @@
   mv temp/.git code/.git
   rm -rf temp
   ```
+- push git commits & tags simultaneously
+  ```sh
+  git config --global push.followTags true
+  ```
