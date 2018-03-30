@@ -10,3 +10,4 @@
   ```sh
   git config --global push.followTags true
   ```
+  > If set to true enable `--follow-tags` option by default. You may override this configuration at time of push by specifying `--no-follow-tags`.
