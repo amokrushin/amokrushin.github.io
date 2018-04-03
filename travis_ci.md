@@ -4,6 +4,7 @@
 
 - [github.com/travis-ci/travis.rb](https://github.com/travis-ci/travis.rb)
 - [github.com/skandyla/docker-travis-cli](https://github.com/skandyla/docker-travis-cli)
+- [npm: How to Work with Authentication Tokens](https://docs.npmjs.com/getting-started/working_with_tokens)
 
 ```bash
 # add bash command alias to ~/.bashrc
