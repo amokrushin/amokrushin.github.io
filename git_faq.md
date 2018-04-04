@@ -19,4 +19,4 @@
   git add ...
   git commit -c ORIG_HEAD
   ```
-  _[Undo a commit and redo](https://stackoverflow.com/questions/927358/how-to-undo-the-most-recent-commits-in-git/927386#927386)_
+  > _[Undo a commit and redo](https://stackoverflow.com/questions/927358/how-to-undo-the-most-recent-commits-in-git/927386#927386)_
