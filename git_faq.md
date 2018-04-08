@@ -19,7 +19,7 @@
   git add ...
   git commit -c ORIG_HEAD
   ```
-  > - _[Undo a commit and redo](https://stackoverflow.com/questions/927358/how-to-undo-the-most-recent-commits-in-git/927386#927386)_
+  > _[Undo a commit and redo](https://stackoverflow.com/questions/927358/how-to-undo-the-most-recent-commits-in-git/927386#927386)_
 
 - Syncing a fork
   ```sh
@@ -28,5 +28,6 @@
   git checkout master
   git merge upstream/master
   ```
-  > - _[Configuring a remote for a fork](https://help.github.com/articles/configuring-a-remote-for-a-fork/)_
-  > - _[Syncing a fork](https://help.github.com/articles/syncing-a-fork/)_
+  > _[Configuring a remote for a fork](https://help.github.com/articles/configuring-a-remote-for-a-fork/)_
+  >  | 
+  > _[Syncing a fork](https://help.github.com/articles/syncing-a-fork/)_
