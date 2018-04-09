@@ -23,3 +23,10 @@ alias ga='git add'
 
 export EDITOR=nano
 ```
+
+## FAQ
+
+- Apply .bashrc without logout
+  ```sh
+  . ~/.bashrc
+  ```
