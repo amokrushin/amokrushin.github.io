@@ -34,4 +34,6 @@
 
 - #### Merging vs. Rebasing
   https://www.atlassian.com/git/tutorials/merging-vs-rebasing
+  > By default, the `git pull` command performs a merge, 
+  > but you can force it to integrate the remote branch with a rebase by passing it the `--rebase` option.
   
