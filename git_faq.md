@@ -34,6 +34,8 @@
 
 - #### Merging vs. Rebasing
   https://www.atlassian.com/git/tutorials/merging-vs-rebasing
+  > The golden rule of `git rebase` is to never use it on *public* branches.
+  
   > By default, the `git pull` command performs a merge, 
   > but you can force it to integrate the remote branch with a rebase by passing it the `--rebase` option.
   
