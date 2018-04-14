@@ -31,3 +31,7 @@
   > _[Configuring a remote for a fork](https://help.github.com/articles/configuring-a-remote-for-a-fork/)_
   >  | 
   > _[Syncing a fork](https://help.github.com/articles/syncing-a-fork/)_
+
+- #### Merging vs. Rebasing
+  https://www.atlassian.com/git/tutorials/merging-vs-rebasing
+  
