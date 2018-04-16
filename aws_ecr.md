@@ -2,6 +2,8 @@
 
 #### awscli
 
+https://github.com/aws/aws-cli
+
 `Dockerfile`
 
 ```
@@ -21,3 +23,7 @@ WORKDIR /project
 
 ENTRYPOINT ["aws"]
 ```
+
+#### credential helper
+
+https://github.com/awslabs/amazon-ecr-credential-helper
