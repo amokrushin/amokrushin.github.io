@@ -27,3 +27,5 @@ ENTRYPOINT ["aws"]
 #### credential helper
 
 https://github.com/awslabs/amazon-ecr-credential-helper
+
+https://aws.amazon.com/ru/blogs/compute/authenticating-amazon-ecr-repositories-for-docker-cli-with-credential-helper/
