@@ -3,3 +3,113 @@
 ## FAQ
 
 - [How To Add Swap Space on Ubuntu 16.04](https://www.digitalocean.com/community/tutorials/how-to-add-swap-space-on-ubuntu-16-04)
+  > If fallocate fails or it not available, you can use dd:
+  > ```
+  > sudo dd if=/dev/zero of=/mnt/1GiB.swap bs=1024 count=1048576
+  > ```
+
+## Initial setup
+
+```
+apt-get update \
+&& apt-get dist-upgrade -y \
+&& apt-get install -y nano curl
+```
+
+### User
+```bash
+passwd \
+&& adduser am \
+&& usermod -aG sudo am \
+&& su am
+# > enter root account new password
+# > enter am account new password
+```
+
+### sshd
+
+```bash
+mkdir -p ~/.ssh \
+&& chmod 0700 ~/.ssh \
+&& touch ~/.ssh/authorized_keys \
+&& chmod 0644 ~/.ssh/authorized_keys \
+&& nano ~/.ssh/authorized_keys
+# > paste am account public key
+```
+
+```bash
+sudo nano /etc/ssh/sshd_config \
+  && sudo service ssh reload
+# set Port <custom port number>
+# set PermitRootLogin no
+# set PasswordAuthentication no
+# set UsePAM no
+```
+
+### .bashrc
+```
+export NCURSES_NO_UTF8_ACS=1
+export LC_ALL=en_US.utf8
+
+alias yi='yarn add'
+alias yr='yarn remove'
+alias yu='yarn upgrade'
+alias yui='yarn upgrade-interactive'
+alias dc='docker-compose'
+alias dcl='dc logs -f --tail 0'
+alias dcs='docker stats $(docker-compose ps -q || echo "#")'
+alias dcps='docker ps $((docker-compose ps -q  || echo "#") | while read line; do echo "--filter id=$line"; done)'
+
+alias gs='git status'
+alias gd='git diff'
+alias gl='git log'
+alias gcm='git commit -m'
+alias gcam='git commit -am'
+alias gco='git checkout'
+alias ga='git add'
+alias gcl='git clone'
+alias gpl='git pull'
+alias gps='git push'
+
+alias chome='sudo chown -R $(whoami):$(whoami)'
+
+export EDITOR=nano
+```
+
+### Node.js
+
+```
+curl -sL https://deb.nodesource.com/setup_9.x | sudo -E bash -
+sudo apt-get install -y nodejs build-essential
+```
+> https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions
+
+### Yarn
+
+```
+curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+sudo apt-get update && sudo apt-get install yarn
+```
+> https://yarnpkg.com/en/docs/install
+
+### Git
+
+```
+sudo apt-get install git -y
+git config --global user.name "Anton Mokrushin" \
+&& git config --global user.email "anton@mokr.org" \
+&& git config --global credential.helper 'store --file ~/.git-credentials'
+```
+
+### Docker
+
+https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/
+
+https://docs.docker.com/compose/install/
+
+https://docs.docker.com/engine/userguide/storagedriver/overlayfs-driver/#configure-docker-with-the-overlay-or-overlay2-storage-driver
+
+```
+usermod -aG docker am
+```
