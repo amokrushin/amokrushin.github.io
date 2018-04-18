@@ -108,8 +108,6 @@ https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/
 
 https://docs.docker.com/compose/install/
 
-https://docs.docker.com/engine/userguide/storagedriver/overlayfs-driver/#configure-docker-with-the-overlay-or-overlay2-storage-driver
-
 ```
-usermod -aG docker am
+sudo usermod -aG docker am
 ```
