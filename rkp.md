@@ -7,9 +7,9 @@
 
 [Краткая сводка о заблокированных адреса](https://habrahabr.ru/post/353822/)
 
-[usher2.club](https://usher2.club/)
+[Отслеживание количества актуальных IP адресов из выгрузки Роскомнадзора](https://usher2.club/)
 
-[t.me/rknshowtime](https://t.me/rknshowtime)
+[t.me/rknshowtime - Shows current IP blocked by RKN](https://t.me/rknshowtime)
 
 ## VPN
 
