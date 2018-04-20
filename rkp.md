@@ -22,6 +22,15 @@ https://github.com/hwdsl2/docker-ipsec-vpn-server
 - [Connect automatically after log on](https://answers.microsoft.com/en-us/insider/forum/insider_wintp-insider_web-insiderplat_pc/can-i-set-my-vpn-conection-to-connect/c6a1e7f2-9cee-42ec-9f98-7fcf2b3a3a42)
 - [Reconnect automatically](https://rushtips.com/windows-10-vpn-reconnect-automatically)
 
+### Ubuntu 16.04
+
+```
+sudo add-apt-repository ppa:nm-l2tp/network-manager-l2tp \
+&& sudo apt-get update \
+&& sudo apt-get install network-manager-l2tp network-manager-l2tp-gnome
+```
+> *[How to add the L2TP VPN option to NetworkManager in Linux](https://www.techrepublic.com/article/how-to-add-the-l2tp-vpn-option-to-network-manager-in-linux/)*
+
 ## DNS
 
 https://simplednscrypt.org/
