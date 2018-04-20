@@ -56,7 +56,7 @@ curl ipinfo.io
 # /etc/dnsmasq.conf
 #
 
-# ignore resolv.conf
+ ignore resolv.conf
 no-resolv
 
 # Listen only on localhost
@@ -66,4 +66,6 @@ local=/local/
 server=/sro/127.0.1.1
 
 server=127.0.2.1
+proxy-dnssec
+
 ```
