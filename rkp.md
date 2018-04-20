@@ -47,3 +47,5 @@ sudo add-apt-repository ppa:nm-l2tp/network-manager-l2tp \
 curl ipconfig.io
 curl ipinfo.io
 ```
+
+[Test OpenDNS](https://welcome.opendns.com/)
