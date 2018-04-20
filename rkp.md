@@ -33,7 +33,10 @@ sudo add-apt-repository ppa:nm-l2tp/network-manager-l2tp \
 
 ## DNS
 
+[dnscrypt.info](https://dnscrypt.info/)
+
 [simplednscrypt.org](https://simplednscrypt.org/)
 
 [Как спрятать DNS-запросы от любопытных глаз провайдера](https://habrahabr.ru/post/353878/)
+
 [DnsCrypt on Ubuntu – Encrypted DNS Traffic](https://linuxhint.com/dnscrypt-ubuntu/)
