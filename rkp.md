@@ -49,3 +49,21 @@ curl ipinfo.io
 ```
 
 [Test OpenDNS](https://welcome.opendns.com/)
+
+
+```
+#
+# /etc/dnsmasq.conf
+#
+
+# ignore resolv.conf
+no-resolv
+
+# Listen only on localhost
+listen-address=127.0.0.1
+
+local=/local/
+server=/sro/127.0.1.1
+
+server=127.0.2.1
+```
