@@ -1,16 +1,15 @@
 ## Why?
 
-> Роскомпозор ебанулся вкрай
+> Роскомпозор ебанулся вкрай.
 
 > Новость завтрашнего дня: В результате попыток Роскомнадзора по блокированию Телеграм в России перестало работать всё, кроме Телеграм.<br/>
 > *[#comment_10763018](https://habrahabr.ru/post/353822/#comment_10763018)*
 
 [Краткая сводка о заблокированных адреса](https://habrahabr.ru/post/353822/)
 
+[usher2.club](https://usher2.club/)
 
-https://usher2.club/
-
-https://t.me/rknshowtime
+[t.me/rknshowtime](https://t.me/rknshowtime)
 
 ## VPN
 
