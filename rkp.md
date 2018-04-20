@@ -33,6 +33,6 @@ sudo add-apt-repository ppa:nm-l2tp/network-manager-l2tp \
 
 ## DNS
 
-https://simplednscrypt.org/
+(simplednscrypt.org)[https://simplednscrypt.org/]
 
 [Как спрятать DNS-запросы от любопытных глаз провайдера](https://habrahabr.ru/post/353878/)
