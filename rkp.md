@@ -41,6 +41,10 @@ sudo add-apt-repository ppa:nm-l2tp/network-manager-l2tp \
 
 [DnsCrypt on Ubuntu – Encrypted DNS Traffic](https://linuxhint.com/dnscrypt-ubuntu/)
 
+[DNSCrypt-proxy on Ubuntu 16.04](https://sorenpoulsen.com/dnscrypt-proxy-on-ubuntu-1604)
+
+[Howto: use a DNSCrypt resolver + local caching DNS proxy on Debian desktop](https://www.reddit.com/r/linux/comments/49eds2/howto_use_a_dnscrypt_resolver_local_caching_dns/)
+
 ## Test
 
 ```
@@ -48,24 +52,5 @@ curl ipconfig.io
 curl ipinfo.io
 ```
 
-[Test OpenDNS](https://welcome.opendns.com/)
-
-
-```
-#
-# /etc/dnsmasq.conf
-#
-
- ignore resolv.conf
-no-resolv
-
-# Listen only on localhost
-listen-address=127.0.0.1
-
-local=/local/
-server=/sro/127.0.1.1
-
-server=127.0.2.1
-proxy-dnssec
-
-```
+- [Test OpenDNS](https://welcome.opendns.com/)
+- [ipleak.net](https://ipleak.net/)
