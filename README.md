@@ -26,4 +26,5 @@
 - [Ubuntu 16.04](ubuntu_16_04.md)
 - [AWS ECR](aws_ecr.md)
 - [AWS IAM](aws_iam.md)
+- [AWS CLI](aws_cli.md)
 - [Роскомпозор](rkp.md)
