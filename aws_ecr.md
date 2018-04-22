@@ -26,6 +26,6 @@ ENTRYPOINT ["aws"]
 
 #### Credential helper
 
-[awslabs/amazon-ecr-credential-helper](https://github.com/awslabs/amazon-ecr-credential-helper)
-
 [Authenticating Amazon ECR Repositories for Docker CLI with Credential Helper](https://aws.amazon.com/ru/blogs/compute/authenticating-amazon-ecr-repositories-for-docker-cli-with-credential-helper/)
+
+The Amazon ECR Docker Credential Helper is a credential helper for the Docker daemon that makes it easier to use Amazon Elastic Container Registry. [awslabs/amazon-ecr-credential-helper](https://github.com/awslabs/amazon-ecr-credential-helper) automatically gets credentials for Amazon ECR on docker push/docker pull.
