@@ -39,3 +39,7 @@
   > By default, the `git pull` command performs a merge, 
   > but you can force it to integrate the remote branch with a rebase by passing it the `--rebase` option.
   
+- #### Show last commit diff
+  ```sh
+  git diff HEAD^ HEAD
+  ```
