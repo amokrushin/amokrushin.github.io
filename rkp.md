@@ -1,15 +1,14 @@
-## Why?
+# Роскомпозор ебанулся вкрай: цирк с конями!
 
-> Роскомпозор ебанулся вкрай.
-
-> Новость завтрашнего дня: В результате попыток Роскомнадзора по блокированию Телеграм в России перестало работать всё, кроме Телеграм.<br/>
+> <s>Новость завтрашнего дня:</s> В результате попыток Роскомнадзора по блокированию Телеграм в России перестало работать всё, кроме Телеграм.<br/>
 > *[#comment_10763018](https://habrahabr.ru/post/353822/#comment_10763018)*
-
-[Краткая сводка о заблокированных адреса](https://habrahabr.ru/post/353822/)
 
 [Отслеживание количества актуальных IP адресов из выгрузки Роскомнадзора](https://usher2.club/)
 
 [t.me/rknshowtime - Shows current IP blocked by RKN](https://t.me/rknshowtime)
+
+
+
 
 ## IPsec VPN
 
@@ -72,6 +71,8 @@ dc run --rm openvpn ovpn_getclient $CLIENTNAME > ${CLIENTNAME}.ovpn
 ### Windows 10 client
 
 [Downloads](https://openvpn.net/index.php/open-source/downloads.html)
+
+
 
 
 ## DNS
