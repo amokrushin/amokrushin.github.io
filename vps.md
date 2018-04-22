@@ -13,6 +13,7 @@
 | site | region | 
 | -- | -- |
 | [buyvm.net](https://buyvm.net) | US, LU |
+| [vultr.com](https://www.vultr.com) | US, FR, NL, GB, DE, AU, JP, SG |
 
 
 <hr/>
