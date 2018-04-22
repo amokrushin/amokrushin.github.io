@@ -24,8 +24,8 @@ WORKDIR /project
 ENTRYPOINT ["aws"]
 ```
 
-#### credential helper
+#### Credential helper
 
-https://github.com/awslabs/amazon-ecr-credential-helper
+[awslabs/amazon-ecr-credential-helper](https://github.com/awslabs/amazon-ecr-credential-helper)
 
-https://aws.amazon.com/ru/blogs/compute/authenticating-amazon-ecr-repositories-for-docker-cli-with-credential-helper/
+[Authenticating Amazon ECR Repositories for Docker CLI with Credential Helper](https://aws.amazon.com/ru/blogs/compute/authenticating-amazon-ecr-repositories-for-docker-cli-with-credential-helper/)
