@@ -71,6 +71,7 @@ alias gcl='git clone'
 alias gpl='git pull'
 alias gps='git push'
 alias gflc='git diff-tree --no-commit-id --name-only -r $(git rev-parse HEAD)'
+alias gdlc='git diff HEAD^ HEAD'
 
 alias chome='sudo chown -R $(whoami):$(whoami)'
 
