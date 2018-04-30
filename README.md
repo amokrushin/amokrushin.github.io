@@ -23,6 +23,7 @@
 - [Travis CI](travis_ci.md)
 - [Blogs](blogs.md)
 - [bash](bash.md)
+- [ssh & scp](ssh.md)
 - [Ubuntu 16.04](ubuntu_16_04.md)
 - [AWS ECR](aws_ecr.md)
 - [AWS IAM](aws_iam.md)
