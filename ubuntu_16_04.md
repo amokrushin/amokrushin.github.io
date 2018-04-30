@@ -77,6 +77,10 @@ alias git-reset='git reset --hard HEAD && git clean -df && git pull'
 
 alias chome='sudo chown -R $(whoami):$(whoami)'
 
+if [ -z "${SSH_AUTH_SOCK}" ] ; then
+    eval `ssh-agent -s`
+fi
+
 export EDITOR=nano
 ```
 
