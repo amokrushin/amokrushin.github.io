@@ -55,6 +55,7 @@ alias yi='yarn add'
 alias yr='yarn remove'
 alias yu='yarn upgrade'
 alias yui='yarn upgrade-interactive'
+
 alias dc='docker-compose'
 alias dcl='dc logs -f --tail 0'
 alias dcs='docker stats $(docker-compose ps -q || echo "#")'
@@ -84,7 +85,7 @@ export EDITOR=nano
 curl -sL https://deb.nodesource.com/setup_9.x | sudo -E bash -
 sudo apt-get install -y nodejs build-essential
 ```
-> https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions
+> <https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions>
 
 ### Yarn
 
@@ -93,7 +94,7 @@ curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
 echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
 sudo apt-get update && sudo apt-get install yarn
 ```
-> https://yarnpkg.com/en/docs/install
+> <https://yarnpkg.com/en/docs/install>
 
 ### Git
 
@@ -106,9 +107,9 @@ git config --global user.name "Anton Mokrushin" \
 
 ### Docker
 
-https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/
+<https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/>
 
-https://docs.docker.com/compose/install/
+<https://docs.docker.com/compose/install/>
 
 ```
 sudo usermod -aG docker am
