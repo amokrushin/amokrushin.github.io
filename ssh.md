@@ -56,3 +56,30 @@ scp /home/am/foo.txt example.com:/home/am/
  -r      Recursively copy entire directories.  Note that scp follows symbolic links encountered in the tree
          traversal.
 ```
+
+## scp-tools
+
+```
+sudo apt-get install pv
+```
+
+`~/.bashrc`
+```
+export PATH=~/bin:$PATH
+```
+
+`~/bin/scp-from`
+
+```bash
+#!/usr/bin/env bash
+
+set -e
+
+arg_host=$1
+from_dirname=$(dirname $2)
+from_basename=$(basename  $2)
+to_dirname=$3
+
+ssh ${arg_host} exit
+ssh ${arg_host} "tar -C ${from_dirname} -cf - ${from_basename}" | pv | tar -xf - -C ${to_dirname}
+```
