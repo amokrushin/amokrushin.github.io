@@ -4,7 +4,21 @@
 
 <https://websiteforstudents.com/virtualbox-5-2-on-ubuntu-16-04-lts-server-headless/>
 
+<https://www.ostechnix.com/install-oracle-virtualbox-ubuntu-16-04-headless-server/>
+
+<https://www.techrepublic.com/article/how-to-import-and-export-virtualbox-appliances-from-the-command-line/>
+
 <https://github.com/Jencryzthers/VboxInsideDocker/blob/master/Dockerfile>
+
+<https://www.virtualbox.org/manual/ch07.html>
+
+<https://github.com/xdissent/ievms>
+
+<https://github.com/xdissent/iectrl>
+
+<http://xmodulo.com/how-to-create-and-start-virtualbox-vm-without-gui.html>
+
+<https://stackoverflow.com/questions/25741904/is-it-possible-to-run-virtualbox-inside-a-docker-container>
 
 ```sh
 sudo apt-get update && sudo apt-get dist-upgrade && sudo apt-get autoremove
@@ -39,3 +53,11 @@ curl -s https://raw.githubusercontent.com/xdissent/ievms/master/ievms.sh | env I
 ```
 
 <https://github.com/magnetikonline/linux-microsoft-ie-virtual-machines>
+
+```
+vboxmanage list vms
+vboxmanage import ubuntu_server_new.ova
+vboxmanage export UBUNTUSERVER164 -o ubuntu_server_new.ova
+```
+
+<https://medium.com/@dbillinghamuk/setup-guide-for-running-selenium-functional-tests-in-webdriver-io-against-ie9-on-vm-1928e83f37ff>
