@@ -4,6 +4,8 @@
 
 <https://websiteforstudents.com/virtualbox-5-2-on-ubuntu-16-04-lts-server-headless/>
 
+<https://github.com/Jencryzthers/VboxInsideDocker/blob/master/Dockerfile>
+
 ```sh
 sudo apt-get update && sudo apt-get dist-upgrade && sudo apt-get autoremove
 sudo apt-get -y install gcc make linux-headers-$(uname -r) dkms
@@ -16,7 +18,24 @@ sudo apt-get update
 sudo apt-get install virtualbox-5.2
 VBoxManage -v
 
-curl -O http://download.virtualbox.org/virtualbox/5.2.4/Oracle_VM_VirtualBox_Extension_Pack-5.2.4-119785.vbox-extpack
-sudo VBoxManage extpack install Oracle_VM_VirtualBox_Extension_Pack-5.2.4-119785.vbox-extpack
+
+# Install VirtualBox Extension Pack
+
+# curl -O http://download.virtualbox.org/virtualbox/5.2.4/Oracle_VM_VirtualBox_Extension_Pack-5.2.4-119785.vbox-extpack
+# sudo VBoxManage extpack install Oracle_VM_VirtualBox_Extension_Pack-5.2.4-119785.vbox-extpack
+
+VBOX_VERSION=`dpkg -s virtualbox-5.2 | grep '^Version: ' | sed -e 's/Version: \([0-9\.]*\)\-.*/\1/'` ; \
+VBOX_LICENSE=56be48f923303c8cababb0bb4c478284b688ed23f16d775d729b89a2e8e5f9eb ; \
+wget http://download.virtualbox.org/virtualbox/${VBOX_VERSION}/Oracle_VM_VirtualBox_Extension_Pack-${VBOX_VERSION}.vbox-extpack ; \
+VBoxManage extpack install --accept-license=${VBOX_LICENSE} Oracle_VM_VirtualBox_Extension_Pack-${VBOX_VERSION}.vbox-extpack ; \
+rm Oracle_VM_VirtualBox_Extension_Pack-${VBOX_VERSION}.vbox-extpack
+
 VBoxManage list extpacks
+
 ```
+
+```
+curl -s https://raw.githubusercontent.com/xdissent/ievms/master/ievms.sh | env IEVMS_VERSIONS="10" bash
+```
+
+<https://github.com/magnetikonline/linux-microsoft-ie-virtual-machines>
