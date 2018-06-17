@@ -1,4 +1,4 @@
-# Ubuntu 16.04
+# Ubuntu 16.04, 18.04
 
 ## FAQ
 
@@ -7,6 +7,17 @@
   > ```
   > sudo dd if=/dev/zero of=/mnt/1GiB.swap bs=1024 count=1048576
   > ```
+  
+- [Command-line tool for controlling NetworkManager](http://manpages.ubuntu.com/manpages/bionic/man1/nmcli.1.html)
+
+  `nmcli connection` - List connections<br>
+  `nmcli connection up/down id name` - Up/down connection by id
+  
+  **Troobleshooting**
+
+  > `Error: Connection activation failed: Not authorized to control networking.`<br>
+  > Then check permissions `nmcli general permissions` and [fix](https://askubuntu.com/a/752168) PolicyKit rule for the NetworkManager.
+
 
 ## Initial setup
 
