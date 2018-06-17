@@ -66,6 +66,11 @@ dc run --rm openvpn ovpn_getclient $CLIENTNAME > ${CLIENTNAME}.ovpn
 >   - [docs/docker-compose.md](https://github.com/kylemanna/docker-openvpn/blob/master/docs/docker-compose.md)
 >   - [docs/tcp.md](https://github.com/kylemanna/docker-openvpn/blob/master/docs/tcp.md)
 
+```
+dc exec openvpn ovpn_listclients
+dc exec openvpn ovpn_status
+```
+
 ### Windows 10 client
 
 [Downloads](https://openvpn.net/index.php/open-source/downloads.html)
