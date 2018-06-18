@@ -41,5 +41,9 @@
   
 - #### Show last commit diff
   ```sh
-  git diff HEAD^ HEAD
+  git diff
+  
+- #### Stash with untracked files
+  ```sh
+  git stash --include-untracked
   ```
