@@ -47,3 +47,10 @@
   ```sh
   git stash --include-untracked
   ```
+  
+- #### Delete branch
+  ```sh
+  git branch -d the_local_branch
+  git push origin --delete the_remote_branch
+  git remote prune origin
+  ```
