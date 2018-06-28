@@ -103,6 +103,14 @@ curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash - \
 ```
 > <https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions>
 
+`.npmrc`
+```
+init-author-name=Anton Mokrushin
+init-author-email=anton@mokr.org
+init-version=0.1.0
+init-license=MIT
+```
+
 ### Yarn
 
 ```
