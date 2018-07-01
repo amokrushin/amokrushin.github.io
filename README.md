@@ -30,3 +30,4 @@
 - [AWS CLI](aws_cli.md)
 - [Роскомпозор](rkp.md)
 - [ЭТП](etp.md)
+- [Windows 10](windows_10.md)
