@@ -31,3 +31,4 @@
 - [Роскомпозор](rkp.md)
 - [ЭТП](etp.md)
 - [Windows 10](windows_10.md)
+- [systemctl](systemctl.md)
