@@ -41,7 +41,13 @@
   
 - #### Show last commit diff
   ```sh
-  git diff
+  git diff HEAD^ HEAD
+  ```
+  
+- #### Show last commit files
+  ```sh
+  git diff-tree --no-commit-id --name-only -r $(git rev-parse HEAD)
+  ```
   
 - #### Stash with untracked files
   ```sh
@@ -53,4 +59,9 @@
   git branch -d the_local_branch
   git push origin --delete the_remote_branch
   git remote prune origin
+  ```
+
+- #### Unicode filenames
+  ```sh
+  git config --global core.quotePath false
   ```
