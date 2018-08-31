@@ -83,3 +83,25 @@ to_dirname=$3
 ssh ${arg_host} exit
 ssh ${arg_host} "tar -C ${from_dirname} -cf - ${from_basename}" | pv | tar -xf - -C ${to_dirname}
 ```
+## reverse autossh
+
+`/etc/systemd/system/examplecomtun.service`
+
+```
+[Unit]
+Description=Example.com reverse SSH
+Requires=systemd-networkd-wait-online.service
+After=systemd-networkd-wait-online.service
+
+[Service]
+ExecStart=/usr/bin/autossh -M 0 -N -q -o "ServerAliveInterval 30" -o "ServerAliveCountMax 3" -p 9358 -i /root/.ssh/key -R 2222:localhost:22 user@example.com
+
+[Install]
+WantedBy=multi-user.target
+```
+
+```
+systemctl daemon-reload
+systemctl enable examplecomtun.service
+systemctl start examplecomtun.service
+```
