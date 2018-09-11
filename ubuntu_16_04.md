@@ -18,6 +18,9 @@
   > `Error: Connection activation failed: Not authorized to control networking.`<br>
   > Then check permissions `nmcli general permissions` and [fix](https://askubuntu.com/a/752168) PolicyKit rule for the NetworkManager.
 
+  > How to disable Alt-Arrow switching of Virtual Consoles?<br>
+  > `sudo kbd_mode -s`
+
 
 ## Initial setup
 
