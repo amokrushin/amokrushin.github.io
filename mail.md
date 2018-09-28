@@ -19,6 +19,7 @@ Edit `/etc/hosts`
 #### Прочее
 * https://habr.com/company/ruvds/blog/325356/
 * https://habr.com/post/261861/
+* https://www.alexeykopytko.com/2014/postfix-opendkim/
 
 
 ## DKIM
