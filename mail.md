@@ -22,6 +22,7 @@ Edit `/etc/hosts`
 * https://www.alexeykopytko.com/2014/postfix-opendkim/
 
 
-## DKIM
+## Test
 
 * http://dkimvalidator.com/
+* http://www.mail-tester.com/
