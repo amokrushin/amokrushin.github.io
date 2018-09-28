@@ -1,4 +1,6 @@
-# Postfix
+# Mail
+
+## Postfix
 
 ```
 sudo hostname example.com
@@ -17,3 +19,8 @@ Edit `/etc/hosts`
 #### Прочее
 * https://habr.com/company/ruvds/blog/325356/
 * https://habr.com/post/261861/
+
+
+## DKIM
+
+* http://dkimvalidator.com/
