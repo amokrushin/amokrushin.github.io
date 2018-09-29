@@ -26,3 +26,8 @@ Edit `/etc/hosts`
 
 * http://dkimvalidator.com/
 * http://www.mail-tester.com/
+
+## Troubleshooting
+
+* https://blog.stickleback.dk/getting-off-hotmails-blocklist/
+* http://ipremoval.sms.symantec.com/lookup/
