@@ -18,7 +18,7 @@ map $request_method $destination {
 
 server {
     ...
-    location /rest/ {
+    location /api/ {
         proxy_pass http://$destination;
     }
 }
