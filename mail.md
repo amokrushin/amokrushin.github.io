@@ -21,6 +21,7 @@ Edit `/etc/hosts`
 * https://habr.com/post/261861/
 * https://www.alexeykopytko.com/2014/postfix-opendkim/
 * https://pages.returnpath.com/email-sending-best-practices.html
+* [Внедрение DMARC для защиты корпоративного домена от спуфинга](https://habr.com/ru/company/mailru/blog/315778/)
 
 
 ## Postmaster
