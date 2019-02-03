@@ -23,6 +23,13 @@ Edit `/etc/hosts`
 * https://pages.returnpath.com/email-sending-best-practices.html
 
 
+## Postmaster
+
+* [mail.ru](https://postmaster.mail.ru/)
+* [yandex.ru](https://postoffice.yandex.ru/)
+* [google.com](https://postmaster.google.com/)
+
+
 ## Test
 
 * http://dkimvalidator.com/
