@@ -22,6 +22,25 @@ Edit `/etc/hosts`
 * https://www.alexeykopytko.com/2014/postfix-opendkim/
 * https://pages.returnpath.com/email-sending-best-practices.html
 * [Внедрение DMARC для защиты корпоративного домена от спуфинга](https://habr.com/ru/company/mailru/blog/315778/)
+* [Загадки и мифы SPF](https://habr.com/ru/company/mailru/blog/338700/)
+
+```
+Все еще сложнее. В идеале, если у вас есть зона, например:
+example.com. IN MX 10 mail.example.com.
+example.com. IN A 1.2.3.4
+mail.example.com. IN A 1.2.3.5
+www.example.com. IN A 1.2.3.4
+Сервер mail.example.com имеет каноническое имя mail.example.com и сконфигурирован использовать его в команде HELO. Тогда нужны следующие записи:
+
+; основная SPF-запись
+example.com. IN TXT "v=spf1 mx a ~all"
+; SPF-запись для HELO
+mail.example.com. IN TXT "v=spf1 a -all"
+; SPF-запись экранирующая www.example.com (при условии что это имя не каноническое и не используется в HELO)
+www.example.com. IN TXT "v=spf1 -all"
+; экранирующий SPF-wildcard
+*.example.com. IN TXT "v=spf1 -all"
+```
 
 
 ## Postmaster
