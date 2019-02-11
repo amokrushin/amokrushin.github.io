@@ -94,7 +94,17 @@ Requires=systemd-networkd-wait-online.service
 After=systemd-networkd-wait-online.service
 
 [Service]
-ExecStart=/usr/bin/autossh -M 0 -N -q -o "ServerAliveInterval 30" -o "ServerAliveCountMax 3" -p 9358 -i /root/.ssh/key -R 2222:localhost:22 user@example.com
+ExecStart=/usr/bin/autossh \
+        -M 2223 \
+        -N \
+        -q \
+        -o ServerAliveInterval=10 \
+        -o ServerAliveCountMax=3 \
+        -o ExitOnForwardFailure=yes \
+        -p 9358 \
+        -i /root/.ssh/key \
+        -R 2222:localhost:22 \
+        user@example.com
 
 [Install]
 WantedBy=multi-user.target
