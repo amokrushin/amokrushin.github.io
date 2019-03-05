@@ -11,9 +11,10 @@
 - [Webpack](webpack.md)
 
 
-#### Git
+#### FAQ
 
-- [FAQ](git_faq.md)
+- [CLI](cli_faq.md)
+- [GIT](git_faq.md)
 
 
 #### Miscellaneous
