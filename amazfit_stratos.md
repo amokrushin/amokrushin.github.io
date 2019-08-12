@@ -10,3 +10,18 @@ adb shell getprop ro.build.version.release
 adb shell getprop ro.build.version.sdk
 22
 ```
+
+### ADB over WiFi
+
+```
+# discover IP
+adb shell ip -f inet addr show wlan0
+
+# restart adbd listening on TCP on PORT [default port=5555]
+adb tcpip
+adb connect 192.168.1.5
+adb disconnect 192.168.1.5
+
+# restart adbd listening on USB
+adb usb
+```
