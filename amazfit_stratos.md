@@ -1,3 +1,7 @@
+## Apps
+
+* https://4pda.ru/forum/index.php?showtopic=768365&st=20260#entry83216921
+
 ## Development
 
 * https://github.com/KieronQuinn/AmazfitStepNotify
