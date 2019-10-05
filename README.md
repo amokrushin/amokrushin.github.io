@@ -38,3 +38,4 @@
 - [nginx](nginx.md)
 - [ИП](ИП.md)
 - [Amazfit Stratos](amazfit_stratos.md)
+- [KVM](kvm.md)
