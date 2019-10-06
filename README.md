@@ -39,3 +39,4 @@
 - [ИП](ИП.md)
 - [Amazfit Stratos](amazfit_stratos.md)
 - [KVM](kvm.md)
+- [Hetzner Dedicated](hetzner.md)
