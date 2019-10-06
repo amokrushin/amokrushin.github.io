@@ -18,7 +18,7 @@ KVM acceleration can be used
 Install
 ```bash
 $ sudo apt update
-$ sudo apt install qemu-kvm libvirt-bin ubuntu-vm-builder bridge-utils
+$ sudo apt install qemu-kvm libvirt-bin bridge-utils
 ```
 
 Verify Installation
@@ -37,3 +37,30 @@ crw-rw---- 1 root kvm 10, 232 Oct  6 02:02 /dev/kvm
 ## Networking
 
 [Ubuntu Documentation: KVM/Networking](https://help.ubuntu.com/community/KVM/Networking)
+
+Usermode Networking
+
+```sh
+$ virsh net-list --all
+ Name                 State      Autostart     Persistent
+----------------------------------------------------------
+ default              inactive   no            yes
+ 
+$ virsh net-start default
+Network default started
+
+$ brctl show
+bridge name     bridge id               STP enabled     interfaces
+virbr0          8000.52540030b6e1       yes             virbr0-nic
+
+$ sudo nano /etc/sysctl.conf
+# Uncomment the next line to enable packet forwarding for IPv4
+net.ipv4.ip_forward=1
+
+sudo sysctl -p
+```
+
+## CreateGuests
+
+[KVM Guest Support Status](http://www.linux-kvm.org/page/Guest_Support_Status)
+
