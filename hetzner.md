@@ -2,6 +2,7 @@
 
 ## EX41-SSD
 
+```
 Hardware data:
 
    CPU1: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz (Cores 8)
@@ -16,6 +17,7 @@ Network data:
          IP:   95.xx.xx.xx
          IPv6: 2a01:xxx:xx:xxxx::x/64
          Intel(R) PRO/1000 Network Driver
+```
 
 ## installimage
 
