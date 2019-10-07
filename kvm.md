@@ -70,5 +70,41 @@ sudo sysctl -p
 
 ## CreateGuests
 
-[KVM Guest Support Status](http://www.linux-kvm.org/page/Guest_Support_Status)
+- **[OpenStack Virtual Machine Image Guide](https://docs.openstack.org/image-guide/index.html)**
+  - [Modify images](https://docs.openstack.org/image-guide/modify-images.html)
+  - [Convert images](https://docs.openstack.org/image-guide/convert-images.html)
+- [Using Cloud Images in KVM](https://www.theurbanpenguin.com/using-cloud-images-in-kvm/)
+- [cloud-init docs](https://cloudinit.readthedocs.io/en/latest/index.html)
 
+Cloud Images
+* Ubuntu: https://cloud-images.ubuntu.com/
+* CentOS: https://cloud.centos.org/centos/
+
+Install Tools
+```
+sudo apt update
+sudo apt install libguestfs-tools
+```
+
+Download cloud image
+```
+mkdir -p ~/virt/images
+cd ~/virt/images
+wget https://cloud.centos.org/centos/7/images/CentOS-7-x86_64-GenericCloud-1708.qcow2.xz
+xz -v -d CentOS-7-x86_64-GenericCloud-1708.qcow2.xz
+
+$ qemu-img info CentOS-7-x86_64-GenericCloud-1708.qcow2
+image: CentOS-7-x86_64-GenericCloud-1708.qcow2
+file format: qcow2
+virtual size: 8.0G (8589934592 bytes)
+disk size: 807M
+cluster_size: 65536
+Format specific information:
+    compat: 0.10
+    refcount bits: 16
+```
+
+To be continued
+```
+/var/lib/libvirt/images
+```
