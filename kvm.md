@@ -108,3 +108,5 @@ To be continued
 ```
 /var/lib/libvirt/images
 ```
+
+* https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/6/html/virtualization_administration_guide/create-lvm-storage-pool-virsh
