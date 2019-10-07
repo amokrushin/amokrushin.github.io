@@ -18,7 +18,8 @@ KVM acceleration can be used
 Install
 ```bash
 $ sudo apt update
-$ sudo apt install qemu-kvm libvirt-bin bridge-utils
+$ sudo apt-get install qemu-kvm libvirt-daemon-system libvirt-clients bridge-utils
+$ sudo adduser `id -un` libvirt
 ```
 
 Verify Installation
@@ -44,8 +45,15 @@ Usermode Networking
 $ virsh net-list --all
  Name                 State      Autostart     Persistent
 ----------------------------------------------------------
- default              inactive   no            yes
+ default              active     yes           yes
+
+# If missing
+$ cp /etc/libvirt/libvirt.conf ~/.config/libvirt/libvirt.conf
+$ nano ~/.config/libvirt/libvirt.conf
+# Uncomment line
+uri_default = "qemu:///system"
  
+# If inactive
 $ virsh net-start default
 Network default started
 
