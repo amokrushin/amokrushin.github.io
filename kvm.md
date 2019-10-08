@@ -110,3 +110,5 @@ To be continued
 ```
 
 * https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/6/html/virtualization_administration_guide/create-lvm-storage-pool-virsh
+* https://habr.com/ru/post/170259/
+* https://habr.com/ru/post/168791/
