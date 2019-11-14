@@ -101,3 +101,28 @@ Number  Start   End    Size   File system  Name                  Flags
  1      1049kB  538MB  537MB  fat32        EFI System Partition  boot, esp
 
 ```
+
+Create LVM partition
+
+```
+$ parted /dev/sdb mkpart
+Partition name?  []?
+File system type?  [ext2]? ext4
+Start? 538MB
+End? 100%
+Information: You may need to update /etc/fstab.
+
+$ parted /dev/sdb set 2 lvm on
+
+$ parted /dev/sdb print
+Model: ATA ADATA SU650 (scsi)
+Disk /dev/sdb: 240GB
+Sector size (logical/physical): 512B/512B
+Partition Table: gpt
+Disk Flags:
+
+Number  Start   End    Size   File system  Name                  Flags
+ 1      1049kB  538MB  537MB  fat32        EFI System Partition  boot, esp
+ 2      538MB   240GB  240GB                                     lvm
+
+```
