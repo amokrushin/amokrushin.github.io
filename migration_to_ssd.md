@@ -64,6 +64,8 @@ UUID=F0D5-218F  /boot/efi       vfat    umask=0077      0       1
 
 Create new partition table
 
+* https://wiki.archlinux.org/index.php/Parted
+
 ```
 $ parted /dev/sdb mklabel gpt
 Information: You may need to update /etc/fstab.
@@ -125,4 +127,42 @@ Number  Start   End    Size   File system  Name                  Flags
  1      1049kB  538MB  537MB  fat32        EFI System Partition  boot, esp
  2      538MB   240GB  240GB                                     lvm
 
+```
+
+https://help.ubuntu.ru/wiki/lvm
+
+Инициализируйте физический диск c помощью pvcreate
+```
+$ pvcreate /dev/sdb2
+  Physical volume "/dev/sdb2" successfully created.
+```
+
+Затем командой vgextend добавьте физический диск к существующей группе томов
+```
+$ vgextend ubuntu-vg /dev/sdb2
+  Volume group "ubuntu-vg" successfully extended
+```
+
+```
+$ vgdisplay
+  --- Volume group ---
+  VG Name               ubuntu-vg
+  System ID
+  Format                lvm2
+  Metadata Areas        2
+  Metadata Sequence No  4
+  VG Access             read/write
+  VG Status             resizable
+  MAX LV                0
+  Cur LV                2
+  Open LV               2
+  Max PV                0
+  Cur PV                2
+  Act PV                2
+  VG Size               688.32 GiB
+  PE Size               4.00 MiB
+  Total PE              176211
+  Alloc PE / Size       119106 / <465.26 GiB
+  Free  PE / Size       57105 / <223.07 GiB
+  VG UUID               uEheAt-WlUH-G26M-7Wz2-pMyt-jcpe-c1HxWD
 ```
