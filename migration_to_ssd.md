@@ -288,3 +288,25 @@ Filesystem at /dev/mapper/ubuntu--vg-root is mounted on /; on-line resizing requ
 old_desc_blocks = 13, new_desc_blocks = 28
 The filesystem on /dev/mapper/ubuntu--vg-root is now 58224640 (4k) blocks long.
 ```
+
+
+SSD cache
+
+```
+pvcreate /dev/sda1
+vgextend machine-121-vg /dev/sda1
+lvcreate -n cachedata -L 50G machine-121-vg /dev/sda1
+lvcreate -n cachemeta -L 50M machine-121-vg /dev/sda1
+lvconvert --type cache-pool --cachemode writeback --poolmetadata /dev/machine-121-vg/cachemeta /dev/machine-121-vg/cachedata
+lvconvert --type cache /dev/machine-121-vg/root --cachepool /dev/machine-121-vg/cachedata
+
+lvs -a
+  LV                VG             Attr       LSize   Pool        Origin       Data%  Meta%  Move Log Cpy%Sync Convert
+  [cachedata]       machine-121-vg Cwi---C---  50.00g                          0.46   12.43           0.00            
+  [cachedata_cdata] machine-121-vg Cwi-ao----  50.00g                                                                 
+  [cachedata_cmeta] machine-121-vg ewi-ao----  52.00m                                                                 
+  [lvol0_pmspare]   machine-121-vg ewi-------  52.00m                                                                 
+  root              machine-121-vg Cwi-aoC--- 464.30g [cachedata] [root_corig] 0.46   12.43           0.00            
+  [root_corig]      machine-121-vg owi-aoC--- 464.30g                                                                 
+  swap_1            machine-121-vg -wi-ao---- 980.00m  
+```
