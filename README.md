@@ -41,3 +41,4 @@
 - [KVM](kvm.md)
 - [Hetzner Dedicated](hetzner.md)
 - [Crypto](crypto.md)
+- [Sentry](sentry.md)
