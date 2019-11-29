@@ -1,3 +1,7 @@
+Задача: смержить home в root
+
+https://gist.github.com/troyfontaine/87091bd6a5c68f45dd62ced3d12bc377
+
 ```
 # df -h
 Filesystem               Size  Used Avail Use% Mounted on
@@ -9,10 +13,6 @@ tmpfs                     12G     0   12G   0% /sys/fs/cgroup
 /dev/sda1               1014M  189M  826M  19% /boot
 /dev/mapper/centos-home  869G   68M  869G   1% /home
 ```
-
-Смержить home в root
-
-https://gist.github.com/troyfontaine/87091bd6a5c68f45dd62ced3d12bc377
 
 ```
 mkdir home-backup
