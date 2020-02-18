@@ -29,7 +29,7 @@
 - [AWS ECR](aws_ecr.md)
 - [AWS IAM](aws_iam.md)
 - [AWS CLI](aws_cli.md)
-- [Роскомпозор](rkp.md)
+- [OpenVPN](openvpn.md)
 - [ЭТП](etp.md)
 - [Windows 10](windows_10.md)
 - [systemctl](systemctl.md)
