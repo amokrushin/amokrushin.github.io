@@ -66,8 +66,12 @@
   git config --global core.quotePath false
   ```
 
-- #### Commits diff
+- #### Diff only commits
   ```sh
   git log --oneline --graph master..feature
   ```
 
+- #### Diff only filenames
+  ```sh
+  git diff --name-only master
+  ```
