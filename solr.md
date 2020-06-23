@@ -10,7 +10,7 @@
 
 ### Презентаций
 
-* https://dataart.com.ua/downloads/lucene.pdf
+* [DataArt Lucene](https://dataart.com.ua/downloads/lucene.pdf)
 
 
 ### YouTube
@@ -19,6 +19,6 @@
 
 ### Словарь
 
-* https://extensions.openoffice.org/en/project/russian-dictionary
-* https://cwiki.apache.org/confluence/display/SOLR/Hunspell
-* https://djbook.ru/examples/68/
+* [OpenOffice russian dictionary](https://extensions.openoffice.org/en/project/russian-dictionary)
+* [Solr Hunspell](https://cwiki.apache.org/confluence/display/SOLR/Hunspell)
+* [Django, Haystack, Solr. Полнотекстовый поиск на русском языке](https://djbook.ru/examples/68/)
