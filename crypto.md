@@ -37,3 +37,10 @@ engine_id = gost
 dynamic_path = /usr/lib/x86_64-linux-gnu/engines-1.1/gost.so
 default_algorithms = ALL
 ```
+
+Пример использования
+https://github.com/gost-engine/engine/blob/master/README.gost
+
+```
+openssl dgst -md_gost12_256 test.txt
+```
