@@ -30,4 +30,5 @@
 
 ## Развертывание
 
+* https://github.com/docker-solr/docker-solr
 * https://github.com/docker-solr/docker-solr-examples/tree/master/swarm
