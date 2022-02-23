@@ -1,6 +1,6 @@
 ### Документация
 
-* [Solr 8.5 Tutorial](https://lucene.apache.org/solr/guide/8_5/solr-tutorial.html)
+* [Apache Solr Reference Guide](https://lucene.apache.org/solr/guide/)
 
 
 ### Книги
@@ -27,3 +27,7 @@
 
 * https://yonik.com/
 * https://chakrayel.wordpress.com/category/solr/
+
+## Развертывание
+
+* https://github.com/docker-solr/docker-solr-examples/tree/master/swarm
