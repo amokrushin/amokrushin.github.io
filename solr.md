@@ -3,11 +3,6 @@
 * [Apache Solr Reference Guide](https://lucene.apache.org/solr/guide/)
 
 
-### Книги
-
-* [Apache Solr Cookbook](http://index-of.es/Varios-2/Apache-Solr-Cookbook.pdf)
-
-
 ### Презентаций
 
 * [DataArt Lucene](https://dataart.com.ua/downloads/lucene.pdf)
