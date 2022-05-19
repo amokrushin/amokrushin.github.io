@@ -32,3 +32,7 @@
 
 * https://github.com/docker-solr/docker-solr
 * https://github.com/docker-solr/docker-solr-examples/tree/master/swarm
+
+### SolrCloud
+
+* https://stackoverflow.com/a/39282268/11010441
