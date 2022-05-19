@@ -1,6 +1,6 @@
 ### Документация
 
-* [Apache Solr Reference Guide](https://lucene.apache.org/solr/guide/)
+* [Apache Solr Reference Guide](https://solr.apache.org/guide/)
 
 
 ### Презентаций
