@@ -27,6 +27,7 @@
 
 * https://yonik.com/
 * https://chakrayel.wordpress.com/category/solr/
+* [Lucidworks Articles: Apache Solr](https://lucidworks.com/post/category/projects/apache-solr/)
 
 ## Развертывание
 
