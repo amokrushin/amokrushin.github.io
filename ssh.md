@@ -37,6 +37,9 @@ sudo apt install keychain
 source $HOME/.keychain/$HOSTNAME-sh
 ```
 
+```
+ssh-copy-id -i ~/.ssh/id_ed25519 am@host
+```
 
 ## scp
 
