@@ -41,6 +41,10 @@ source $HOME/.keychain/$HOSTNAME-sh
 ssh-copy-id -i ~/.ssh/id_ed25519 am@host
 ```
 
+```
+ssh -T git@github.com
+```
+
 ## scp
 
 ```
