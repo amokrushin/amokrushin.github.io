@@ -5,15 +5,12 @@
 - [SSH (SECURE SHELL)](https://www.ssh.com/ssh/)
 - [How To Configure Custom Connection Options for your SSH Client](https://www.digitalocean.com/community/tutorials/how-to-configure-custom-connection-options-for-your-ssh-client)
 - [SSH Essentials: Working with SSH Servers, Clients, and Keys](https://www.digitalocean.com/community/tutorials/ssh-essentials-working-with-ssh-servers-clients-and-keys)
+- [Using SSH-Agent the right way in Windows 10 WSL2](https://esc.sh/blog/ssh-agent-windows10-wsl2/)
 
 ## Configuration
 
-`ssh-keygen`
-
 ```
-Generating public/private rsa key pair.
-Enter file in which to save the key (/home/am/.ssh/id_rsa): /home/am/.ssh/example.com-am
-...
+ssh-keygen -t ed25519 -C "anton@mokr.org"
 ```
 
 
@@ -23,21 +20,22 @@ Enter file in which to save the key (/home/am/.ssh/id_rsa): /home/am/.ssh/exampl
 Host example.com
   User am
   HostName example.com
-  Port 9358
-  IdentityFile ~/.ssh/example.com-am
+  Port 22
+  IdentityFile ~/.ssh/id_ed25519
   ServerAliveInterval 60
   ServerAliveCountMax 10
-  AddKeysToAgent yes
+```
+
+```
+sudo apt install keychain
 ```
 
 `~/.bashrc`
-
 ```
-if [ -z "${SSH_AUTH_SOCK}" ] ; then
-    eval `ssh-agent -s`
-fi
+# Loading the SSH key
+/usr/bin/keychain -q --nogui $HOME/.ssh/id_ed25519
+source $HOME/.keychain/$HOSTNAME-sh
 ```
-
 
 
 ## scp
