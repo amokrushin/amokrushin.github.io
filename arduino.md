@@ -11,3 +11,4 @@
 * [ESP32 Arduino: Getting started with WiFi](https://techtutorialsx.com/2017/06/29/esp32-arduino-getting-started-with-wifi/)
 * [ESP32 Useful Wi-Fi Library Functions (Arduino IDE)](https://randomnerdtutorials.com/esp32-useful-wi-fi-functions-arduino/)
 * [ESP32 Web Server – Arduino IDE](https://randomnerdtutorials.com/esp32-web-server-arduino-ide/)
+* [ESP32 MQTT – Publish and Subscribe with Arduino IDE](https://randomnerdtutorials.com/esp32-mqtt-publish-subscribe-arduino-ide/)
